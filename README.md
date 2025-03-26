@@ -1,13 +1,3 @@
-WEBPACK
-DEV MODE
-INDEX.JS -> ENTRY POINT
+THIS PROJECT HERE:
 
-SUPPORT ADDED:
-HTML
-CSS
-IMG in JS
-LIVE SERVER WEBPACK -> http://localhost:8080/
-ESLINT -> npx eslint yourfile.js
-PRETTIER  -> prettier --write folder/files
-
-CLONE AND RUN "npm install" TO INSTALL ALL DEPENDENCIES
+https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-homepage
