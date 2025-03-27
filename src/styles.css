@@ -127,3 +127,15 @@ table {
   border-spacing: 0;
 }
 /*END OF CSS RESET*/
+
+header {
+  div {
+    .pfp {
+      height: 100px;
+      object-fit: fill;
+      background-image: url(https://placehold.co/400x400/green/white);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+}
