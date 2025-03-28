@@ -126,16 +126,35 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/*END OF CSS RESET*/
 
-header {
-  div {
-    .pfp {
-      height: 100px;
-      object-fit: fill;
-      background-image: url(https://placehold.co/400x400/green/white);
-      background-size: contain;
-      background-repeat: no-repeat;
+:root {
+  --img-size-normal: 160px;
+}
+/*END OF CSS RESET*/
+body {
+  header {
+    .introImg {
+      width: var(--img-size-normal);
+      height: var(--img-size-normal);
+      display: flex;
+      background-color: black;
+      background-image: url(https://placehold.co/160x160/green/green);
+      background-size: cover;
+      background-position: bottom;
+
+      .content {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        .textContent {
+          margin-top: auto;
+          margin-bottom: 5%;
+          text-align: center;
+          width: 100%;
+          p {
+          }
+        }
+      }
     }
   }
 }
