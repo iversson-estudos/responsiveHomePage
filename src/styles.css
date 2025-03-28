@@ -133,10 +133,13 @@ table {
 /*END OF CSS RESET*/
 body {
   header {
+    display: flex;
+
     .introImg {
-      width: var(--img-size-normal);
-      height: var(--img-size-normal);
       display: flex;
+      min-width: var(--img-size-normal);
+      min-height: var(--img-size-normal);
+      flex-shrink: 0;
       background-color: black;
       background-image: url(https://placehold.co/160x160/green/green);
       background-size: cover;
@@ -154,6 +157,22 @@ body {
           p {
           }
         }
+      }
+    }
+    .about {
+      display: flex;
+      flex-shrink: 1;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .title {
+        font-weight: 900;
+      }
+      .textContent {
+        font-size: 24px;
+      }
+      .links {
+        align-self: flex-end;
       }
     }
   }
