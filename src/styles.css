@@ -181,7 +181,15 @@ body {
       .header {
       }
       .projectContainer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+        gap: 16px;
+        max-width: 800px; /* Optional: constrain maximum width */
+        margin: 0 auto; /* Center the grid */
+
         .project {
+          min-height: 250px;
+          width: auto;
           border: 2px solid black;
           background-color: green;
           margin: 2px;
