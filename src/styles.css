@@ -222,10 +222,26 @@ body {
               }
             }
           }
-          .projectFooter {
+          .descriptionFooter {
           }
         }
       }
+    }
+  }
+  footer {
+    display: flex;
+    background-color: skyblue;
+    .contactContainer {
+      .textContent {
+      }
+      .contacts {
+      }
+    }
+    .imageContainer {
+      height: 300px;
+      width: 300px;
+      background-image: url(https://placehold.co/160x160/green/green);
+      background-size: cover;
     }
   }
 }
