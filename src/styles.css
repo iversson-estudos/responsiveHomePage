@@ -134,14 +134,19 @@ table {
 body {
   header {
     display: flex;
+    padding: 16px;
+    background-color: #c5beca;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 
     .introImg {
       display: flex;
+      margin-right: 16px;
+      box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.75);
       min-width: var(--img-size-normal);
       min-height: var(--img-size-normal);
       flex-shrink: 0;
       background-color: black;
-      background-image: url(https://placehold.co/160x160/green/green);
+      background-image: url(../src/img/profile.jpeg);
       background-size: cover;
       background-position: bottom;
 
@@ -149,9 +154,10 @@ body {
         height: 100%;
         width: 100%;
         display: flex;
+
         .textContent {
-          margin-top: auto;
-          margin-bottom: 5%;
+          margin-top: 0;
+          font-weight: 900;
           text-align: center;
           width: 100%;
           p {
@@ -231,6 +237,7 @@ body {
   footer {
     display: flex;
     background-color: skyblue;
+
     .contactContainer {
       .textContent {
       }
