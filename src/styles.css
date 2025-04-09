@@ -195,7 +195,13 @@ body {
   }
   main {
     section {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      border: 2px solid black;
       .header {
+        margin: 0 auto;
+        margin-top: 32px;
         font-size: 24px;
         font-weight: 600;
       }
@@ -211,8 +217,6 @@ body {
           flex-direction: column;
           min-height: 250px;
           width: auto;
-          border: 2px solid black;
-          margin: 2px;
 
           .screenshot {
             height: 100%;
