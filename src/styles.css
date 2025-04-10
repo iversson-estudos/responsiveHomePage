@@ -127,11 +127,19 @@ table {
   border-spacing: 0;
 }
 
+/*END OF CSS RESET*/
+
+/*IMPORTS*/
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Oswald:wght@200..700&display=swap");
+
+/*root variables*/
 :root {
+  --font-family: "Marcellus", serif;
   --img-size-normal: 320px;
 }
-/*END OF CSS RESET*/
+/*start of css*/
 body {
+  font-family: var(--font-family);
   header {
     display: flex;
     justify-content: center;
