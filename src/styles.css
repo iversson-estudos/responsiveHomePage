@@ -135,8 +135,8 @@ body {
   header {
     display: flex;
     justify-content: center;
-    padding: 16px;
-    gap: 32px;
+    padding: 32px;
+    gap: 16vw;
     background-color: #c5beca;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     margin-right: 16px;
