@@ -258,13 +258,17 @@ body {
             .descriptionHeader {
               display: flex;
               justify-content: space-between;
+              align-items: center;
               padding: 4px;
               .projectName {
                 font-size: 16px;
                 font-weight: 600;
               }
               .icons {
-                font-size: inherit;
+                svg {
+                  cursor: pointer;
+                  height: 24px;
+                }
               }
             }
           }
@@ -287,11 +291,13 @@ body {
       line-height: 24px;
       .textContent {
       }
+
       .icons {
         display: flex;
         gap: 16px;
         svg {
-          height: 32px;
+          cursor: pointer;
+          height: 24px;
         }
       }
       .contacts {
@@ -300,6 +306,10 @@ body {
           justify-content: flex-start;
           align-items: center;
           gap: 32px;
+          svg {
+            cursor: pointer;
+            height: 16px;
+          }
           p {
           }
         }
