@@ -276,19 +276,42 @@ body {
   }
   footer {
     display: flex;
-    background-color: skyblue;
+    justify-content: space-around;
+    background-color: var(--bg-color);
 
     .contactContainer {
+      display: flex;
+      flex-direction: column;
+      padding: 32px;
+      gap: 16px;
+      line-height: 24px;
       .textContent {
       }
+      .icons {
+        display: flex;
+        gap: 16px;
+        svg {
+          height: 32px;
+        }
+      }
       .contacts {
+        div {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 32px;
+          p {
+          }
+        }
       }
     }
     .imageContainer {
-      height: 300px;
-      width: 300px;
-      background-image: url(https://placehold.co/160x160/green/green);
+      margin: 16px;
+      height: 240px;
+      width: 240px;
+      background-image: url(../src/img/profile.jpeg);
       background-size: cover;
+      box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.75);
     }
   }
 }
