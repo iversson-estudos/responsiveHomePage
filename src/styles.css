@@ -139,6 +139,8 @@ table {
   --bg-color: #c5beca; /*same as photo*/
 }
 /*start of css*/
+
+
 body {
   font-family: var(--font-family);
   header {
@@ -322,6 +324,26 @@ body {
       background-image: url(../src/img/profile.jpeg);
       background-size: cover;
       box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.75);
+    }
+  }
+}
+@media (max-width: 600px) {
+body>*{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    main {
+      section {
+        .projectContainer {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(auto-fit, 1fr));
+            margin: 0 auto;
+        }
+      }
     }
   }
 }
